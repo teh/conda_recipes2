@@ -1,0 +1,21 @@
+package:
+  name: starcluster
+  version: 0.94.1
+
+source:
+  fn: starcluster-0.94.1.tar.gz
+  url: http://star.mit.edu/media/uploads/cluster/downloads/starcluster-0.94.1.tar.gz
+
+requirements:
+  build:
+    - python
+  run:
+    - python
+    - ipython
+    - jinja2
+    - boto
+    - iptools
+    - decorator
+    - paramiko
+    - pyasn1
+    - optcomplete

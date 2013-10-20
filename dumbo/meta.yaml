@@ -1,0 +1,16 @@
+package:
+  name: dumbo
+  version: 0.21.36
+
+source:
+  fn: release-0.21.36.zip
+  url: https://github.com/klbostee/dumbo/archive/release-0.21.36.zip
+
+requirements:
+  build:
+    - python
+    - distribute
+    - typedbytes
+  run:
+    - python
+    - typedbytes

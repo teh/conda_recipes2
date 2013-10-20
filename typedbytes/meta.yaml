@@ -1,0 +1,14 @@
+package:
+  name: typedbytes
+  version: 0.3.8
+
+source:
+  fn: release-0.3.8.zip
+  url: https://github.com/klbostee/typedbytes/archive/release-0.3.8.zip
+
+requirements:
+  build:
+    - python
+    - distribute
+  run:
+    - python

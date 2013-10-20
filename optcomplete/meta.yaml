@@ -1,0 +1,13 @@
+package:
+  name: optcomplete
+  version: 1.2
+
+source:
+  fn: optcomplete-1.2-devel.tar.gz
+  url: https://pypi.python.org/packages/source/o/optcomplete/optcomplete-1.2-devel.tar.gz#md5=6392cd0a7154b3394004d5ad9d913d59
+
+requirements:
+  build:
+    - python
+  run:
+    - python
