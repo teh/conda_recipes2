@@ -1,0 +1,48 @@
+package:
+  name: flask-bcrypt
+  version: 0.5.2
+
+source:
+  fn: Flask-Bcrypt-0.5.2.tar.gz
+  url: https://pypi.python.org/packages/source/F/Flask-Bcrypt/Flask-Bcrypt-0.5.2.tar.gz
+  md5: 0ab56e917cb0cd8e073018038ac9945c
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+# build:
+  # entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - flask-bcrypt = flask-bcrypt:main
+    #
+    # Would create an entry point called flask-bcrypt that calls flask-bcrypt.main()
+
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  # number: 1
+
+requirements:
+  build:
+    - python
+    - distribute
+    - flask
+    - py-bcrypt
+
+  run:
+    - python
+    - distribute
+    - flask
+    - py-bcrypt
+
+test:
+  # Python imports
+  imports:
+    - flask.ext.bcrypt
+
+
+about:
+  home: https://github.com/maxcountryman/flask-bcrypt
+  license: BSD License
