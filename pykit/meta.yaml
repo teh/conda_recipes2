@@ -1,0 +1,22 @@
+package:
+  name: pykit
+  version: 0.1.0
+
+source:
+  fn: 0.1.0.zip
+  url: https://github.com/pykit/pykit/archive/0.1.0.zip
+
+requirements:
+  build:
+    - llvmpy
+    - ply
+    - pycparser
+  run:
+    - llvmpy
+    - ply
+    - pycparser
+    - numpy
+
+test:
+  imports:
+    - pykit
