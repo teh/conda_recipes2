@@ -1,0 +1,18 @@
+package:
+  name: poppler
+  version: 0.24.3
+
+source:
+  fn: poppler-0.24.3.tar.xz
+  url: http://poppler.freedesktop.org/poppler-0.24.3.tar.xz
+
+requirements:
+  build:
+    - zlib
+    - libpng
+    - python
+  run:
+    - zlib
+    - libpng
+    - python
+    - poppler-data

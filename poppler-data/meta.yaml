@@ -1,0 +1,11 @@
+package:
+  name: poppler-data
+  version: 0.4.6
+
+source:
+  fn: poppler-data-0.4.6.tar.gz
+  url: http://poppler.freedesktop.org/poppler-data-0.4.6.tar.gz
+
+requirements:
+  build:
+    - python
