@@ -1,0 +1,20 @@
+package:
+  name: nanomsg-python
+  version: 0.2-alpha
+
+source:
+  fn: a5f3ed1e5b8c8fe1d18684dd64beea54de107366.zip
+  url: https://github.com/tonysimpson/nanomsg-python/archive/a5f3ed1e5b8c8fe1d18684dd64beea54de107366.zip
+
+requirements:
+  build:
+    - python
+    - nanomsg
+
+  run:
+    - python
+    - nanomsg
+
+about:
+  home: http://nanomsg.org
+  license: MIT
