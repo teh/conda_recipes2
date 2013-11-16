@@ -1,0 +1,12 @@
+package:
+  name: nanomsg
+  version: 0.2-alpha
+
+source:
+  fn: nanomsg-0.2-alpha.tar.gz
+  url: http://download.nanomsg.org/nanomsg-0.2-alpha.tar.gz
+
+about:
+  home: http://nanomsg.org
+  license: MIT
+
