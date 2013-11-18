@@ -1,0 +1,61 @@
+package:
+  name: eventlet
+  version: 0.14.0
+
+source:
+  fn: eventlet-0.14.0.tar.gz
+  url: https://pypi.python.org/packages/source/e/eventlet/eventlet-0.14.0.tar.gz
+  md5: 207119abce774018432225bd719403fb
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+# build:
+  # entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - eventlet = eventlet:main
+    #
+    # Would create an entry point called eventlet that calls eventlet.main()
+
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  # number: 1
+
+requirements:
+  build:
+    - python
+    - distribute
+    - greenlet
+
+  run:
+    - python
+    - distribute
+    - greenlet
+
+test:
+  # Python imports
+  imports:
+    - eventlet
+
+  # commands:
+    # You can put test commands to be run here.  Use this to test that the
+    # entry points work.
+
+
+  # You can also put a file called run_test.py in the recipe that will be run
+  # at test time.
+
+  # requires:
+    # Put any additional test requirements here.  For example
+    # - nose
+
+about:
+  home: http://eventlet.net
+  license: MIT License
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml
