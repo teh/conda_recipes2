@@ -1,0 +1,17 @@
+package:
+  name: sass
+  version: 3.2.12
+
+source:
+  fn: 3.2.12.zip
+  url: https://github.com/nex3/sass/archive/3.2.12.zip
+
+requirements:
+  build:
+    - ruby
+    - ruby-gems
+  run:
+    - ruby
+
+about:
+  license: MIT
