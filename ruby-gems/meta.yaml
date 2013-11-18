@@ -1,0 +1,7 @@
+package:
+  name: ruby-gems
+  version: 2.1.7
+
+source:
+  fn: rubygems-2.1.7.tgz
+  url: http://production.cf.rubygems.org/rubygems/rubygems-2.1.7.tgz
