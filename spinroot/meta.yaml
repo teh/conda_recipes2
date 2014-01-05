@@ -1,0 +1,13 @@
+package:
+  name: spinroot
+  version: 6.2.5
+
+source:
+  fn: spin625.tar.gz
+  url: http://spinroot.com/spin/Src/spin625.tar.gz
+
+about:
+  home: http://spinroot.org
+  license: Spin Public Licence
+
+  
