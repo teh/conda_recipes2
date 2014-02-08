@@ -1,0 +1,75 @@
+package:
+  name: flask-admin
+  version: !!str 1.0.7
+
+source:
+  fn: Flask-Admin-1.0.7.tar.gz
+  url: https://pypi.python.org/packages/source/F/Flask-Admin/Flask-Admin-1.0.7.tar.gz
+  md5: 37153580549e3f6eeb2ddd3bc66defc7
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+# build:
+  #preserve_egg_dir: True
+  #entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - flask-admin = flask-admin:main
+    #
+    # Would create an entry point called flask-admin that calls flask-admin.main()
+
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  # number: 1
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - flask
+    - wtforms
+
+  run:
+    - python
+    - flask
+    - wtforms
+    - setuptools
+    - sqlalchemy
+    - flask-sqlalchemy
+
+test:
+  # Python imports
+  imports:
+    - flask_admin
+    - flask_admin.contrib
+    - flask_admin.contrib.sqla
+    - flask_admin.contrib.sqlamodel
+    - flask_admin.form
+    - flask_admin.model
+    - flask_admin.tests
+    - flask_admin.tests.fileadmin
+    - flask_admin.tests.sqlamodel
+    - flask_admin.translations
+
+  #commands:
+    # You can put test commands to be run here.  Use this to test that the
+    # entry points work.
+
+
+  # You can also put a file called run_test.py in the recipe that will be run
+  # at test time.
+
+  # requires:
+    # Put any additional test requirements here.  For example
+    # - nose
+
+about:
+  home: https://github.com/mrjoes/flask-admin/
+  license: BSD License
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml
