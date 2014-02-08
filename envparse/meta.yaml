@@ -1,0 +1,26 @@
+package:
+  name: envparse
+  version: 0.2
+
+source:
+  fn: master.zip
+  url: https://github.com/teh/envparse/archive/master.zip
+
+requirements:
+  build:
+    - python
+    - distribute
+
+  run:
+    - python
+    - distribute
+
+test:
+  # Python imports
+  imports:
+    - envparse
+
+
+about:
+  home: https://github.com/teh/envparse
+  license: Apache 2 License
