@@ -1,0 +1,26 @@
+package:
+  name: replicant
+  version: 0.3.1
+
+source:
+  git_url: https://github.com/rescrv/Replicant
+  git_tag: releases/0.3.1
+
+
+requirements:
+  build:
+    - python
+    - libe
+    - busybee
+    - hyperleveldb
+
+  run:
+    - python
+    - libe
+    - busybee
+    - hyperleveldb
+
+about:
+  home: https://github.com/rescrv/Replicant
+  license: MIT
+  

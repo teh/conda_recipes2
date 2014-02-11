@@ -1,0 +1,20 @@
+package:
+  name: busybee
+  version: 0.4
+
+source:
+  fn: 0.4.zip
+  url: https://github.com/rescrv/busybee/archive/releases/0.4.zip
+
+requirements:
+  build:
+    - python
+    - libe
+
+  run:
+    - python
+    - libe
+
+about:
+  home: https://github.com/rescrv/busybee
+  license: MIT

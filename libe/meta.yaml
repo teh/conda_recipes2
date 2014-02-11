@@ -1,0 +1,18 @@
+package:
+  name: libe
+  version: 0.4
+
+source:
+  fn: 0.4.zip
+  url: https://github.com/rescrv/e/archive/releases/0.4.zip
+
+requirements:
+  build:
+    - python
+
+  run:
+    - python
+
+about:
+  home: https://github.com/rescrv/e
+  license: MIT

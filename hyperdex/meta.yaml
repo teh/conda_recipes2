@@ -1,0 +1,26 @@
+package:
+  name: hyperdex
+  version: 1.0
+
+source:
+  fn: 1.0.zip
+  url: https://github.com/rescrv/HyperDex/archive/releases/1.0.zip
+
+requirements:
+  build:
+    - python
+    - libe
+    - busybee
+    - hyperleveldb
+    - replicant
+
+  run:
+    - python
+    - libe
+    - busybee
+    - hyperleveldb
+    - replicant
+
+about:
+  home: https://github.com/rescrv/HyperDex
+  license: MIT

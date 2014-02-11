@@ -1,0 +1,18 @@
+package:
+  name: hyperleveldb
+  version: 1.0
+
+source:
+  git_url: https://github.com/rescrv/HyperLevelDB
+  git_tag: releases/1.0.1
+
+requirements:
+  build:
+    - python
+
+  run:
+    - python
+
+about:
+  home: https://github.com/rescrv/HyperLevelDB
+  license: MIT
