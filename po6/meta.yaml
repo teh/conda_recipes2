@@ -1,10 +1,11 @@
 package:
-  name: libe
-  version: 0.5
+  name: po6
+  version: 0.5.0
 
 source:
+  git_url: https://github.com/rescrv/po6
   git_tag: releases/0.5.0
-  git_url: https://github.com/rescrv/e/
+
 
 requirements:
   build:
@@ -14,5 +15,6 @@ requirements:
     - python
 
 about:
-  home: https://github.com/rescrv/e
+  home: https://github.com/rescrv/po6
   license: MIT
+  

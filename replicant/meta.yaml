@@ -1,10 +1,10 @@
 package:
   name: replicant
-  version: 0.3.1
+  version: 0.4.0
 
 source:
   git_url: https://github.com/rescrv/Replicant
-  git_tag: releases/0.3.1
+  git_tag: releases/0.4.0
 
 
 requirements:
@@ -13,12 +13,14 @@ requirements:
     - libe
     - busybee
     - hyperleveldb
+    - po6
 
   run:
     - python
     - libe
     - busybee
     - hyperleveldb
+    - po6
 
 about:
   home: https://github.com/rescrv/Replicant
