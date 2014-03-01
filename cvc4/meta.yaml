@@ -1,0 +1,20 @@
+package:
+  name: cvc4
+  version: 1.3
+
+source:
+  fn: cvc4-1.3.tar.gz
+  url: http://cvc4.cs.nyu.edu/builds/src/cvc4-1.3.tar.gz
+
+requirements:
+  build:
+    - readline
+    - python
+
+  run:
+    - readline
+    - python
+
+about:
+  home: http://cvc4.cs.nyu.edu/builds/src/
+  license: MIT
