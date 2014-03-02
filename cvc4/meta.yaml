@@ -3,13 +3,14 @@ package:
   version: 1.3
 
 source:
-  fn: cvc4-1.3.tar.gz
-  url: http://cvc4.cs.nyu.edu/builds/src/cvc4-1.3.tar.gz
+  git_url: https://github.com/CVC4/CVC4
+  git_tag: master
 
 requirements:
   build:
     - readline
     - python
+    - swig
 
   run:
     - readline
